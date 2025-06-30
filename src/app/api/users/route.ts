@@ -5,3 +5,10 @@
 
 //   const { email, user, senha } = body;
 // }
+// src/app/api/users/route.ts
+
+import { NextResponse } from "next/server";
+
+export async function POST() {
+  return NextResponse.json({ message: "ok" });
+}
