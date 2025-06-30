@@ -8,6 +8,10 @@ import { useState } from "react";
 export default function Login() {
   const [email, setemail] = useState("");
 
+  function Continuar() {
+    return console.log(email);
+  }
+
   return (
     <div className="flex items-center justify-center h-screen">
       <div className="lg:w-1/4 space-y-6">
@@ -21,6 +25,7 @@ export default function Login() {
         <Emailinput onChange={(e) => setemail(e.target.value)}></Emailinput>
         <div>
           <button
+            onClick={Continuar}
             type="button"
             className="bg-blue-500 p-2 text-white w-full rounded hover:bg-blue-600"
           >

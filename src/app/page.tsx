@@ -1,10 +1,11 @@
 import Button from "@/components/Links/usarstockflow";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="flex  flex-col lg:flex-row lg:justify-between lg:items-center space-y-6">
       <div className="order-1 lg:order-2 pt-8">
-        <img src="/estoque.jpeg" alt="Inventário" />
+        <Image src="/estoque.jpeg" alt="Inventário" />
       </div>
       <div className="lg:w-3/4 order-1  ">
         <div>

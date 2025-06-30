@@ -21,5 +21,6 @@ const Emailinput = forwardRef<HTMLInputElement, EmailInputProps>(
     );
   }
 );
+Emailinput.displayName = "Emailinput";
 
 export default Emailinput;

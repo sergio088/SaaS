@@ -11,7 +11,7 @@ export default function Cadastro() {
   const [email, setemail] = useState("");
 
   function Continuar() {
-    alert("iu");
+    return console.log(email);
   }
   return (
     <div className="flex items-center justify-center h-screen ">

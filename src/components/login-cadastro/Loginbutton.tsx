@@ -9,9 +9,9 @@ export default function LoginGoogle() {
     return (
       <div>
         <p>Ola, {session.user?.name}</p>
-        {session.user?.image && (
+        {/* {session.user?.image && (
           <img src={session.user?.image} alt="Foto de perfil" />
-        )}
+        )} */}
         <button type="button" onClick={() => signOut()}>
           sair
         </button>
