@@ -1,4 +1,4 @@
-import Button from "@/components/usarstockflow";
+import Button from "@/components/Links/usarstockflow";
 
 export default function Home() {
   return (

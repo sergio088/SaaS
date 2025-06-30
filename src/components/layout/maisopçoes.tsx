@@ -1,4 +1,4 @@
-import A from "./link";
+import A from "../Links/A";
 
 export default function Maisopçoes() {
   return (

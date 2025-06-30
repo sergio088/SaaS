@@ -22,3 +22,11 @@ model Post {
   author  User   @relation(fields: [authorId], references: [id])
   authorId Int
 }
+model VerificationCode {
+  id         String   @id @default(cuid())
+  email      String
+  code       String
+  createdAt  DateTime @default(now())
+  expiresAt  DateTime
+  verified   Boolean  @default(false)
+}

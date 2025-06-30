@@ -11,9 +11,7 @@ export default function A({ href, children, className }: linkprops) {
   return (
     <Link
       href={href}
-      className={`rounded px-1 py-0.5 hover:bg-gray-200 hidden lg:flex ${
-        className ?? ""
-      }`}
+      className={`rounded px-1 py-0.5 hover:bg-gray-200 ${className ?? ""}`}
     >
       {children}
     </Link>
